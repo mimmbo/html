@@ -1,0 +1,25 @@
+.black{
+    padding:5px 15px 5px 15px;
+    background: lightgray;
+    font-size: 80px;
+    font-weight: bold;
+}
+p{
+    font-size: 50px;
+    margin-bottom: 5PX;
+}
+.red{
+    padding:5px 15px 5px 15px;
+    background: lightgray;
+    color: #ab2317;
+    font-size: 80px;
+    font-weight: bold;
+}
+div{
+    display: flex;
+    max-width: 0;
+    justify-content: left;
+}
+span{
+    margin: 10px;
+}
