@@ -1,0 +1,33 @@
+*{
+    text-decoration: none;
+}
+h1{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+h2{
+    margin: 0;
+    font-family: Lucida Console, Monaco, monospace;
+}
+body{
+    font-size: 16px;
+}
+.underline{
+    margin-bottom: 0;
+}
+.underline-p{
+    margin-top: 0;
+    margin-left: 40px;
+}
+.family{
+    font-size: 21px;
+}
+.only-margin-top{
+    margin-top: 5px;
+}
+.family-part{
+    font-size: 18px;
+}
+sup{
+    font-size: 10px;
+}
