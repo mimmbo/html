@@ -1,0 +1,41 @@
+.fone {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product{
+    height: 270px;
+    width: 225px;
+    margin: 10px 0 ;
+    border-radius: 10%;
+    border: solid black;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px ;
+
+}
+img{
+    width: 150px;
+    height: 125px;
+    margin: 35px 10px 20px 10px;
+}
+#milk{
+    width: 75px;
+    margin: 35px 60px 20px 60px;
+}
+#Grape{
+    width: 75px;
+    margin: 35px 60px 20px 60px;
+}
+#potato{
+    width: 100px;
+    margin: 35px 60px 20px 60px;
+}
+#yogurt{
+    width: 100px;
+    margin: 35px 60px 20px 60px;
+}
