@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     background-color: #cca254;
+    align-items: center;
 }
 .secondary{
     background-color: red;
