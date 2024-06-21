@@ -1,0 +1,20 @@
+.main{
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #cca254;
+}
+.secondary{
+    background-color: red;
+    width:100px;
+    height: 100px;
+    margin: 100px 35px ;
+}
+.secondary:hover{
+    background-color:yellow;
+    border-radius: 50%;
+    transition: 1s;
+    transform: rotate(180deg);
+;
+}
