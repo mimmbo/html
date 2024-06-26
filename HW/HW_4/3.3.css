@@ -1,0 +1,37 @@
+*{
+    scroll-behavior: smooth;
+}
+#main-1{
+    height: 100vh;
+    background-color: green;
+}
+#main-2{
+    height: 100vh;
+    background-color: red;
+}
+#main-3{
+    height: 100vh;
+    background-color: deepskyblue;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+}
+h2 {
+    font-size: 40px;
+}
+.special{
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+}
