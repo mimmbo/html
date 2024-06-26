@@ -1,0 +1,40 @@
+body {
+    margin: 30px;
+    padding: 0;
+    font-size: 32px;
+}
+
+.main-1 {
+    display: flex;
+    width: 95vw;
+    height: 60vh;
+    justify-content: center;
+    background-color: darkorange;
+    align-items: center;
+
+}
+
+.secondary {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    width: 30vw;
+    height: 60vh;
+    align-items: center;
+}
+
+.secondary-main {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.main-2 {
+    display: flex;
+    height: 100vh;
+    background-color: darkorange;
+    justify-content: center;
+    align-items: center;
+}
