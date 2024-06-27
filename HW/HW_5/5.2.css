@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.up{
+    height: 50vh;
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+
+}
+.down{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+h2{
+    margin: 30px 0;
+}
