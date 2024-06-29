@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 23vh;
+            background: #8D8484;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            height: 54vh;
+            display: flex;
+        }
+
+        footer {
+            height: 23vh;
+            background: #BDBDBD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content-box {
+            display: flex;
+            flex-direction: column;
+            width: 73vw;
+        }
+
+        .content {
+            height: 18vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #first {
+            background: #776969;
+        }
+
+        #second {
+            background: #643030;
+        }
+
+        #third {
+            background: #441818;
+        }
+
+        .spam {
+            display: flex;
+            flex-direction: column;
+            width: 27vw;
+            text-align: center;
+        }
+
+        #spam-1 {
+            height: 27vh;
+            background: #937575;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #spam-2 {
+            height: 27vh;
+            background: #644C4C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        p {
+            font-size: 45px;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "slnt" 0;
+        }
+    </style>
+</head>
+<body>
+<header><p>Header</p></header>
+<main>
+    <div>
+        <div class="content-box">
+            <div class="content" id="first"><p>Content-1</p></div>
+            <div class="content" id="second"><p>Content-2</p></div>
+            <div class="content" id="third"><p>Content-3</p></div>
+        </div>
+    </div>
+    <div class="spam">
+        <div id="spam-1"><p>spam-1</p></div>
+        <div id="spam-2"><p>spam-2</p></div>
+    </div>
+</main>
+<footer><p>Footer</p></footer>
+</body>
+</html>
