@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            height: 22vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #D9D9D9;}
+        footer{
+            background: #BDBDBD;
+        }
+        main {
+            height: 56vh;
+            background: #ABA8A8;
+            display: flex;}
+        .big{
+            width: 60vw;
+            background: #6D5C5C;
+        }
+        .small{
+            width: 20vw;
+            background: #4E4949;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #other{
+            background: #776C6C;
+        }
+    </style>
+</head>
+<body>
+<header><p>Header</p></header>
+<main>
+    <div class="big"></div>
+    <div class="small"><p>Content</p></div>
+    <div class="small" id="other"><p>Content</p></div>
+</main>
+<footer><p>Footer</p></footer>
+</body>
+</html>
