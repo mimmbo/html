@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header p {
+            margin: 0 60px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+        }
+
+        main {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main p {
+            font-family: "Roboto", sans-serif;
+            font-size: 48px;
+        }
+
+        .price {
+            height: 50vh;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: 48px;
+        }
+
+        .red {
+            color: #AD0306;
+            font-family:  "Roboto", sans-serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 37px 0;
+        }
+
+        .size {
+            color: #000;
+            font-family: "Roboto", sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .box-size {
+            display: flex;
+            justify-content: space-between;
+        }
+        #active{
+            color: #B93536;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .add{
+            color: #000;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 47px;
+        }
+        .add2{
+            color: #000;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .grey{
+            color: #A19FA0;
+            font-family: "Roboto", sans-serif ;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="Frame.png" alt="">
+    <p>NEW</p>
+    <P>MAN</P>
+    <P>WOMEN</P>
+</header>
+<main>
+    <div>
+        <img src="Rectangle1.svg" alt="">
+    </div>
+    <div class="price">
+        <p><b>Nike Rs-x Toys -</b></p>
+        <p><b>Woman Shoes</b></p>
+        <p class="red"><b>$169.00</b></p>
+        <div class="box-size">
+            <p class="size">US 7</p>
+            <P class="size grey">US 8</P>
+            <p CLASS="size">US 9</p>
+            <P class="size" id="active">US 10</P>
+            <P class="size grey">US 11</P>
+            <P class="size">US 12</P>
+        </div>
+        <p class="add">For orders above $150 standart shipping </p>
+        <p class="add2">is always free!</p>
+
+    </div>
+</main>
+
+</body>
+</html>
