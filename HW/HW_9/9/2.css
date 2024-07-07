@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+}
+main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    flex-direction: column;
+    margin-top: 60px;
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+}
+footer div{
+    height: 10vh;
+    width: 30vw;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+main div img{
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+}
+input[type="text"]{
+    height: 40px;
+    margin: 3px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px  solid lightgray;
+    color: darkgray;
+}
+input[type="submit"]
+{
+    border-radius: 10px;
+    background-color: #79B4F4;
+    color:white;
+    font-weight: 600;
+    width:250px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 5px;
+}
+main div p{
+    color: #7E7E7E;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.facebook{
+    color:#3B507F;
+    font-weight: bold;
+    height: 14px;
+    margin-top: 10px;
+}
+.facebook img{
+    height: 18px;
+    width: 18PX;
+    margin: 0 2px -3px 0;
+}
+.forgot{
+    text-decoration: none;
+    color: #8093AD;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: #519EF0;
+}
