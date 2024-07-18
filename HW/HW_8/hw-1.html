@@ -99,6 +99,73 @@
             font-weight: 400;
             line-height: normal;
         }
+        section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 100vh;
+            color: #142823;
+            font-family: Inter sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+
+
+        }
+        .top{
+        margin-top: 200px;
+            font-size: 48px;
+        }
+        .main{
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            margin-top: 57px;
+
+        }
+        .inside{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            height: 330px;
+            width: 280px;
+            gap: 20px;
+            text-align: center;
+            font-family: Inter sans-serif;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            position: relative;
+        }
+.price1{
+    color: #106FDF;
+    font-family: Inter sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.price-red{
+    color: #DD152D;
+    font-family: Inter sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.absolute{
+    width: 165px;
+    height: 60px;
+    border-radius: 30%;
+    position: absolute;
+    top: -20px;
+    left: 60px;
+}
+
+
     </style>
 </head>
 <body>
@@ -129,6 +196,29 @@
 
     </div>
 </main>
+<section>
+    <p class="top">Showing CTAs</p>
+        <p>on hover interaction</p>
+    <div class="main">
+        <div class="inside">
+            <img src="Frame339.png" alt="">
+            <p>Nike Running - Neon</p>
+            <p class="price1">$ 210.00</p>
+            <img class="absolute" src="star.png" alt="">
+        </div>
+        <div class="inside">
+            <img src="Frame2.png" alt="">
+            <p>Nike - Zegama 2</p>
+            <p class="price-red">$ 230.00</p>
+        </div>
+        <div class="inside">
+            <img src="Frame3.png" alt="">
+            <P>Nike - Vaporfly 3</P>
+            <p class="price1">$ 210.00</p>
+            <img class="absolute" src="star.png" alt="">
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
