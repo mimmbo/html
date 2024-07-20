@@ -1,0 +1,92 @@
+header{
+    height: 6vh;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+header li{
+    background-color: #5F9EC2;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vh;
+}
+header a{
+    text-decoration: 0;
+    color: white;
+    font-size:20px;
+}
+.banner{
+    height: 30vh;
+    background-color: #5F9EC2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.banner p{
+    margin-right: 30px;
+}
+.article{
+    height: 50vh;
+}
+.article>div{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.article1{
+    display: flex;
+    justify-content: flex-end;
+    height: 25vh;
+    width: 48%;
+    background-color: #5F9EC2;
+    border-radius: 10px;
+}
+.article2{
+    display: flex;
+    justify-content: flex-end;
+    height: 25vh;
+    width: 48%;
+    background-color: #5F9EC2;
+    border-radius: 10px;
+}
+.article3{
+    display: flex;
+    justify-content: flex-end;
+    height: 25vh;
+    width: 48%;
+    background-color: #5F9EC2;
+    border-radius: 10px;
+}
+.article4{
+    display: flex;
+    justify-content: flex-end;
+    height: 25vh;
+    width: 48%;
+    background-color: #5F9EC2;
+    border-radius: 10px;
+}
+.article p{
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F9EC2;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}

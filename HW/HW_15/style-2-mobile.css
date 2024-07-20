@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px){
+    body{
+        font-size: 0.5em;
+
+    }
+    header{
+        height: 20vh;
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+    }
+    .left{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .f{
+        height: 20vh;
+        width: 100%;
+    }
+    .b{
+        width: 100%;
+        height: 40vh;
+    }
+    .c{
+        height: 20vh;
+    }
+    .d{
+        height: 20vh;
+    }
+    .e{
+        height: 20vh;
+    }
+    .inside{
+        height: 21vh;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

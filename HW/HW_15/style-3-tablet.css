@@ -1,0 +1,20 @@
+@media screen and (min-width: 480px) and (max-width: 1280px){
+    .article{
+        transform: rotate(-90deg);
+        width: 50vh;
+    }
+    .article>div{
+        flex-direction: column;
+        height: 50vh;
+    }
+    .article div{
+        width: 100%;
+    }
+    .article2{
+        margin-top: 10px;
+    }
+    .article3{
+        margin-bottom: 10px;
+    }
+}
+
