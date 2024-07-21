@@ -1,0 +1,9 @@
+@media screen  and (min-width: 480px) and (max-width: 1280px) {
+    div {
+    width: 40%;
+        margin: 0 auto;
+    }
+    p{
+        width: 65%;
+    }
+}

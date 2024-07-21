@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 28px;
+        margin-bottom: 18px;
+        margin-top: 52px;
+    }
+    p{
+        font-size: 20px;
+        width: 95%;
+        margin-bottom: 32px;
+    }
+    button{
+        margin: 0 auto;
+    }
+    .a{
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    main{
+        height: 100%;
+    }
+    body{
+    }
+}

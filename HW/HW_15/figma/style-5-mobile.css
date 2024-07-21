@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+ main{
+     margin-top: 20px;
+ }
+    div{
+     width: 90%;
+ }
+
+    p{
+        width: 100%;
+    };
+}

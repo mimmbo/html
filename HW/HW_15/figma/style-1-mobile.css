@@ -1,0 +1,72 @@
+@media screen and (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .text {
+        width: 300px;
+        height: 300px;
+    }
+
+    .text button {
+        padding: 8px 16px;
+        gap: 10px;
+        border-radius: 8px;
+        background: #FF9500;
+        border: 0;
+        margin-right: 24px;
+        color: #FFF;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 25.2px */
+    }
+
+    .text h2 {
+        color: #000;
+
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        width: 343px;
+        margin: 24px 0;
+    }
+
+    .text ul {
+        color: #3C3C43;
+
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 24px;
+        margin-left: 20px;
+        width: 330px;
+    }
+
+    .text button:last-of-type {
+        height: 56px;
+        padding: 0 24px;
+        gap: 8px;
+        border-radius: 8px;
+        background: #6F1DF4;
+        color: #FFF;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .youtube iframe{
+        margin-top: 124px;
+        width: 343px;
+        height: 200px;;
+    }
+}
