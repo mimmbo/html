@@ -1,0 +1,65 @@
+.main {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+"header header header header"
+"main main main aside"
+"first second third aside"
+;
+
+
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+.first{
+    grid-area: first;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+.second{
+    grid-area: second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+.third{
+        grid-area: third;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        border-radius: 10px;
+}
